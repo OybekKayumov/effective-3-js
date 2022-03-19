@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root {
+  --accent-color: #feca1b;
+  --red-color: #ef5350;
+  --bg-dark: #121620;
+  --bg-light: #1c212e;
+  --text-color: #fff;
+  --normal-font: 'Roboto Condensed', sans-serif;
+  --header-font: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: var(--normal-font);
+  color: var(--text-color);
+  padding: 0 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jcb {
+  justify-content: space-between;
+}
+
+.flex-aic {
+  align-items: center;
+}
+
+header {
+  padding: 1rem 0;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.logo p {
+  font-family: var(--header-font);
+  color: var(--accent-color);
+  font-size: 1.25rem;
+}
+
+.logo span {
+  color: var(--text-color);
+}
+
+.nav-links {
+  gap: 1rem;
+}
+
+.nav-links select {
+  padding: 0.5rem;
+  background-color: var(--bg-light);
+  border: none;
+  border-radius: 0.7rem;
+}
