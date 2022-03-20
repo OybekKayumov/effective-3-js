@@ -174,15 +174,137 @@ main {
   transform: scale(1.1);
 }
 
+.chips-wrap {
+  gap: 0.5rem;
+}
+
+.chips {
+  display: block;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 200;
+  background-color: var(--bg-dark);
+  width: fit-content;
+}
+
+.chip-normal {
+  background-color: var(--chip-normal);
+}
+
+.chip-fighting {
+  background-color: var(--chip-fighting);
+}
+
+.chip-flying {
+  background-color: var(--chip-flying);
+}
+
+.chip-poison {
+  background-color: var(--chip-poison);
+}
+
+.chip-ground {
+  background-color: var(--chip-ground);
+}
+
+.chip-rock {
+  background-color: var(--chip-rock);
+}
+
+.chip-bug {
+  background-color: var(--chip-bug);
+}
+
+.chip-ghost {
+  background-color: var(--chip-ghost);
+}
+
+.chip-steel {
+  background-color: var(--chip-steel);
+}
+
+.chip-fire {
+  background-color: var(--chip-fire);
+}
+
+.chip-water {
+  background-color: var(--chip-water);
+}
+
+.chip-grass {
+  background-color: var(--chip-grass);
+}
+
+.chip-electric {
+  background-color: var(--chip-electric);
+}
+
+.chip-psychic {
+  background-color: var(--chip-psychic);
+}
+
+.chip-ice {
+  background-color: var(--chip-ice);
+}
+
+.chip-dragon {
+  background-color: var(--chip-dragon);
+}
+
+.chip-dark {
+  background-color: var(--chip-dark);
+}
+
+.chip-fairy {
+  background-color: var(--chip-fairy);
+}
+
+.chip-shadow {
+  background-color: var(--chip-shadow);
+}
+
+.actions {
+  gap: 0.2rem;
+  flex-direction: column;
+}
+
+.pagination {
+  gap: 0.5rem;
+}
+
+.page {
+  padding: 0.5rem;
+  background-color: var(--bg-light);
+  border-radius: 0.5rem;
+  min-width: 2rem;
+  cursor: pointer;
+}
+
+.page.active {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.next,
+.prev {
+  min-width: 4rem;
+}
+
 footer {
   background-color: var(--bg-light);
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  /* position: fixed; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
   padding: 1rem 2rem;
 }
 
-.profiles {
+/* .profiles { */
+.tag {
   color: var(--accent-color);
+}
+
+.hide {
+  /* display: none; */
 }
