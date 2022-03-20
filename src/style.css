@@ -70,3 +70,16 @@ header {
   border: none;
   border-radius: 0.7rem;
 }
+
+footer {
+  background-color: var(--bg-light);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem 2rem;
+}
+
+.profiles {
+  color: var(--accent-color);
+}
