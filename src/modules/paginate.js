@@ -42,7 +42,7 @@ const setupPagination = () => {
     }
   }
 
-  document.querySelector('next').addEventListener('click', () => {
+  document.querySelector('.next').addEventListener('click', () => {
     if (+currentPage >= 56) {
       return;
     }
